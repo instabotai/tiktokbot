@@ -31,7 +31,7 @@ class Bot():
             time.sleep(0.6)
             i = 0
             while i in range(2000):
-                like = pyautogui.locateOnScreen('like.png', confidence=0.9)
+                like = pyautogui.locateOnScreen('img/like.png', confidence=0.9)
                 time.sleep(0.1)
                 pyautogui.click(like)
                 time.sleep(0)
