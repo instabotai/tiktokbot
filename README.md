@@ -8,5 +8,5 @@ Tiktokbot
 Install bluestacks<p>
 Go into tiktok app with bluestacks home screen<p>
 python run.py
-
-![Output sample](https://s5.gifyu.com/images/ezgif.com-optimize99f532874b386ff6.gif)
+ 
+![Output sample](https://media.giphy.com/media/ZcoruzZdote2KSZzs3/giphy.gif)
