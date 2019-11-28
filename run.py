@@ -57,25 +57,26 @@ class Bot():
 
     def comment(self, sleep):
             comment = ["this is cool", "yeaah", "hehe", "hehehe", ";)", ":)", "wow", "wooow", "nice", "cool", "awesome", "yes", "this is awesome", "agree"]
-            pyautogui.click(420, 450)
-            time.sleep(1.5)
-            pyautogui.click(10, 330)
-            time.sleep(1.5)
+            comments = pyautogui.locateOnScreen('img/comment.png', confidence=0.9)
+            time.sleep(4)
+            pyautogui.click(comments)
+            time.sleep(4)
             comment = random.choice(comment)
-            pyautogui.typewrite(comment)
-            time.sleep(0.5)
-            pyautogui.click(420, 790)
-            time.sleep(0.5)
-            pyautogui.click(420, 120) # close right side
-            pyautogui.click(20, 140) # close left side
-            time.sleep(0)
-            pyautogui.click(20, 140) # close left side
+            time.sleep(4)
+            add_comment = pyautogui.locateOnScreen('img/add_comment.png', confidence=0.9)
+            time.sleep(4)
+            pyautogui.click(add_comment)
             time.sleep(2)
-            pyautogui.click(40, 790)
+            pyautogui.typewrite(comment)
             time.sleep(1)
-            pyautogui.click(40, 790)
-            self.x += 1
-            print(str(self.x))
+            click = pyautogui.locateOnScreen('img/commentclick.png', confidence=0.9)
+            time.sleep(2)
+            pyautogui.click(click)
+            time.sleep(1)
+            close = pyautogui.locateOnScreen('img/close.png', confidence=0.9)
+            time.sleep(2)
+            pyautogui.click(close)
+            time.sleep(2)
             time.sleep(sleep)
 
     def follow_user(self, sleep):
@@ -92,7 +93,7 @@ class Bot():
 bot = Bot()
 while True:
     #bot.comment_liker(5)
-    bot.follow_user(45)
+    bot.follow_user(2 + random.random())
     #bot.comment(10)
-    #comment(10)
-    bot.liker(5)
+    bot.comment(2)
+    bot.liker(2 + random.random())
