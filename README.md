@@ -9,4 +9,4 @@ Install bluestacks<p>
 Go into tiktok app with bluestacks home screen<p>
 python run.py
  
-![](https://media.giphy.com/media/ZcoruzZdote2KSZzs3/giphy.gif)
+![](img/demo.gif)
