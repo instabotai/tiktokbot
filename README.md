@@ -8,3 +8,6 @@ Tiktokbot
 Install bluestacks<p>
 Go into tiktok app with bluestacks home screen<p>
 python run.py
+<video width="320" height="240" autoplay>
+  <source src="https://i.imgur.com/QcnsMbi.mp4" type="video/mp4">
+ </video> 
