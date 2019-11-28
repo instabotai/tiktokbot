@@ -19,9 +19,10 @@ class Bot():
             pyautogui.click(35, 140) # close left side
             time.sleep(0.7)
 
-    def liker(sleep):
+    def liker(self, sleep):
         time.sleep(1)
         liker = pyautogui.locateOnScreen('img/heart.png', confidence=0.9)
+        pyautogui.click(liker)
         time.sleep(sleep)
 
     def comment_liker(self, sleep):
@@ -90,8 +91,8 @@ class Bot():
 
 bot = Bot()
 while True:
-#    bot.comment_liker(1)
+    #bot.comment_liker(5)
     bot.follow_user(45)
     #bot.comment(10)
     #comment(10)
-    #liker(5)
+    bot.liker(5)
