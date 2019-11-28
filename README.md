@@ -8,5 +8,8 @@ Tiktokbot
 Install bluestacks<p>
 Go into tiktok app with bluestacks home screen<p>
 python run.py
+ <p>
+  
+  ### Demo:
  
-![](img/demo.gif)
+ ![](img/demo.gif)
