@@ -9,7 +9,9 @@ Install bluestacks<p>
 Go into tiktok app with bluestacks home screen<p>
 python run.py
 
-You need to have basic knowledge of python and tiktok for the bot to work.. Don't except to open bluestacks and the script magicaly works..
+You need to have basic knowledge of python and tiktok for the bot to work.. Don't except to open bluestacks and the script magicaly works.. Most likely you need to take new pictures of images if you don't use same screen-size.
+
+I will not make this bot work on all platforms without users need to modify it.. it would take me days-weeks.. and i don't get paid for it.. so not worth my time. 
  <p>
   
   ### Demo:
