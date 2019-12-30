@@ -8,6 +8,8 @@ Tiktokbot
 Install bluestacks<p>
 Go into tiktok app with bluestacks home screen<p>
 python run.py
+
+You need to have basic knowledge of python and tiktok for the bot to work.. Don't except to open bluestacks and the script magicaly works..
  <p>
   
   ### Demo:
