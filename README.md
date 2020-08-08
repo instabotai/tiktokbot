@@ -2,7 +2,7 @@
 Tiktokbot
 </h1>
 <p align="center">
- <em>Tiktokbot auto macro with image recognition.</em></p>
+ <em>Tiktokbot auto macro with face detection.</em></p>
 
 <p align="center"><h2>Install process</h2><p>
 Install bluestacks<p>
